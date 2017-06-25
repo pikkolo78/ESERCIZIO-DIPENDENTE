@@ -32,14 +32,14 @@ public class Dipendente
    {
    	this.stipendio=stipendio;
    }
-   public void stipendioMensile(double stipendio)
+   public void saldoDipendente(double stipendio)
    {
-     this.stipendio =+ stipendio;
+     this.stipendio +=stipendio;
    }
    public void stampaInfoDipendente()
    {
    	System.out.println("Dipendente: "+ getNome()+" "+ getCognome());
-   	System.out.println("Stipendio momentaneo: "+ getStipendio());
+   	System.out.println("Saldo momentaneo dipendente: "+ getStipendio());
    }
 
 
